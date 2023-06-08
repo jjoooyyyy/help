@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+body {
+    background-color: #774f94;
+    margin: 0;
+    font-family:'Quicksand', sans-serif;
+}
+
+.header {
+    background-color: #362d3b;
+    color: white;
+    height: 90px;
+    border-bottom: 6px solid #774f94;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.logo {
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #ffffff;
+}
+
+.links a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.yellow {
+    color: #ffe437;
+}
+
+
+
+
+
+#products {
+    color: #774f94;
+    background-color: #ffffff;
+    border-bottom: 6px solid #774f94;
+    border-top: 6px solid #FFF;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+
+#products #items img {
+    width: 20%;
+    border: 2px dashed rgb(248, 197, 42);
+
+    margin-top: 1em;
+   
+    
+}
+
+#products div {
+    margin-bottom: 6px;
+}
+
+
+
+
+
+#footer {
+    
+    background-color: #362d3b;
+    height: 250px;
+    max-width: 100%;
+    max-height: 600px;
+
+}
